@@ -1,0 +1,88 @@
+sh -x /mbanking/v4tomcat/Agents/SMS.sh >> /mbanking/v4tomcat/Agents/SMS27072020.out 2>&1
+sh -x /mbanking/v4tomcat/Agents/SMSWEB.sh >> /mbanking/v4tomcat/Agents/SMSWEB270720204th2nd.out 2>&1
+sh -x /mbanking/v4tomcat/Agents/SMSOTP.sh >> /mbanking/v4tomcat/Agents/SMSOTP270720204th2nd.out 2>&1
+sh -x /mbanking/v4tomcat/Agents/MailAgent.sh >> /mbanking/v4tomcat/Agents/MailAgent30082020.out  2>&1
+sh -x /mbanking/v4tomcat/Agents/Report.sh >> /mbanking/v4tomcat/Agents/Report30072020.out 2>&1
+sh -x /mbanking/v4tomcat/Agents/MFASync.sh >> /mbanking/v4tomcat/Agents/MFASynco010620202nd.out  2>&1
+sh -x /mbanking/v4tomcat/Agents/PegasusExpireAgent.sh >> /mbanking/v4tomcat/Agents/PegasusExpireAgent10302019.out  2>&1
+sh -x /mbanking/v4tomcat/Agents/MTN.sh >> /mbanking/v4tomcat/Agents/MTN02072020.out  2>&1
+
+sh -x /mbanking/v4tomcat/Agents/Current.sh >> /mbanking/v4tomcat/Agents/Current090720208th.out  2>&1
+
+sh -x /mbanking/v4tomcat/Agents/RefRev.sh >> /mbanking/v4tomcat/Agents/RefRev16072020.out  2>&1
+
+
+
+sh -x /mbanking/v4tomcat/Agents/ECashin.sh >> /mbanking/v4tomcat/Agents/ECashin030820208th.out  2>&1
+
+sh -x /mbanking/v4tomcat/Agents/OCashin.sh >> /mbanking/v4tomcat/Agents/OCashin030820208th.out  2>&1
+sh -x /mbanking/v4tomcat/Agents/Rname.sh >> /mbanking/v4tomcat/Agents/Rname150620208th.out  2>&1
+T0601000339824843
+sh -x /home/ibsupport/agents/Report_Agent.sh >> /home/ibsupport/agents/report17062020120.out 2>&1
+sh -x /home/ibsupport/agents/MTN.sh >> /home/ibsupport/agents/MTN170720208th.out 2>&1
+
+wget https://localhost:5151/mfmbs/
+wget https://Bl:5151/mfmbs/
+com.modefinserver.mb.integration.boauganda.ib.PegasusQueryStatusIB
+0100000001825tt202006042023309661031
+0100000001825tt20200604202330966103
+sh -x /home/ibsupport/agents/Async_Agent.sh >>/home/ibsupport/agents/Async_Agent26062020.out 2>&1
+sh -x /home/ibsupport/agents/Estatement_Report_Agent.sh >> /home/ibsupport/agents/Estatement_Report_Agent04062020.out 2>&1
+sh -x /home/ibsupport/agents/Mail_Agent.sh >> /home/ibsupport/agents/Mail_Agent17072020.out 2>&1
+
+sh -x /mbanking/v4tomcat/Agents/Rev.sh >> /mbanking/v4tomcat/Agents/Rev03032020new.out  2>&1
+
+sh -x /mbanking/v4tomcat/Agents/OTPMailAgent.sh >> /mbanking/v4tomcat/Agents/OTPMailAgent08080204th.out  2>&1
+
+{"Amount":"210000","RefId":"0704278480_T20200605083653","PrimaryMobileNumber":"0783467956","ToAccountNumber":"01318440014","FromAccountNumber":"07186730000","CommissionAmount":"1725.00","Currency":"UGX","ToAmount":"210000"}
+
+
+
+sh -x /home/ibsupport/agents/Estatement_Report_Agent.sh >>/home/ibsupport/agents/Estatement_Report_Agent26062020.out 2>&1
+sh -x /home/ibsupport/agents/ SMS_Agent.sh >> /home/ibsupport/agents/ SMS_Agent26062020.out 2>&1
+
+
+
+
+generatedReports
+https://imbadmin.postbank.co.ug/mfmbs/reports/generatedReports/20200326202953803410.PDF
+mbsupport@mobileappprod:~$ vi Report_Agent.sh
+mbsupport@mobileappprod:~$
+
+
+sh -x /mbanking/v4tomcat/Agents/OTPMailAgent.sh >> /mbanking/v4tomcat/Agents/OTPMailAgent20072020.out  2>&1
+sh -x /mbanking/v4tomcat/Agents/RevIGOR.sh >> /mbanking/v4tomcat/Agents/RevIGOR15112019.out  2>&1
+sh -x /mbanking/v4tomcat/Agents/MTNECW.sh >> /mbanking/v4tomcat/Agents/MTNECW06042020.out  2>&1
+sh -x /mbanking/v4tomcat/Agents/Rev.sh >> /mbanking/v4tomcat/Agents/Rev30072020new.out  2>&1
+sh -x /mbanking/v4tomcat/Agents/NWSC.sh >> /mbanking/v4tomcat/Agents/nwsc02042020.out  2>&1
+sh -x /mbanking/v4tomcat/Agents/Load.sh >> /mbanking/v4tomcat/Agents/Load231220192nd.out  2>&1
+sh -x /mbanking/v4tomcat/Agents/Load.sh >> /mbanking/v4tomcat/Agents/Load13122019.out  2>&1
+sh -x /mbanking/v4tomcat/Agents/ABC.sh >> /mbanking/v4tomcat/Agents/ABC030820208th.out  2>&1
+
+sh -x /mbanking/v4tomcat/Agents/RABC.sh >> /mbanking/v4tomcat/Agents/RABC030820208th.out  2>&1
+sh -x /mbanking/v4tomcat/Agents/REV.sh >> /mbanking/v4tomcat/Agents/REV170720208th.out  2>&1
+
+Because of Flow we used 2 thread executors ,that was leading to these all issues,now we are removing those Thread executors,thats the fix we are deploying
+BULKSMS.sh
+ABCJSP=https://localhost:5090/mfmbs/mbintf/ABC.jsp
+sh -x /home/ibsupport/agents/Mail_Agent.sh >> /home/ibsupport/agents/Mail_Agent04032020.out  2>&1
+
+0772338414	
+*/5 * * * * sh /mbanking/v4tomcat/Agents/ABC.sh >> /mbanking/v4tomcat/Agents/ABC30102019.out 2>&1
+T10301319549890
+WUQWntnpIXs=
+
+
+net.sf.jasperreports.engine.JRException: java.io.FileNotFoundException: /mbanking/v4tomcat/tomcatagencybanking/tomcatagencybanking/webapps/mfmbs/designs/AgencyReport.jrxml (No such file or directory)
+
+4aKzAezW8cX2KyYii3pVdQ==
+M0deIsCh12B3ChdeSupe23wew
+
+/mbanking/v4tomcat/tomcat7agent
+
+
+Type a message
+
+ReportURLPrefix
+
+REVJSP=https://localhost:5090/mfmbs/mbintf/REV.jsp
